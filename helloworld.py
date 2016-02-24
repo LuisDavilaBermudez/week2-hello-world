@@ -21,6 +21,7 @@ language = input()
  if language == german
   print('Guten Tag')
  if language == spanish
-  print('Hola Senior')      
+  print('Hola Senior')
+exit
     
 
