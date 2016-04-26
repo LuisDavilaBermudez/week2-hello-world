@@ -10,18 +10,19 @@
 
 #First it says hello
 print('Hello Sir/Madam.')
- print('What is your name?') #Then it asks for your name
+print('What is your name?') #Then it asks for your name
 myname = input()
- print('Hello, ' + myname) #it then says hello to you in english
-  print('What language would you prefer?')#it then asks for your prefered language
+print('Hello, ' + myname) #it then says hello to you in english
+print('What language would you prefer?')#it then asks for your prefered language
 language = input()
- print('You have chosen ' + language) #it then tells you what language you chose
- if language == english #it then greets you if you chose a valid language
-  print('Hello Sir)
- if language == german
-  print('Guten Tag')
- if language == spanish
-  print('Hola Senior')
+print('You have chosen ' + language)#it then tells you what language you chose
+if language == 'English':
+    print('Hello Sir')#it then greets you if you chose a valid language
+elif language == 'Spanish':
+    print('Hola Senor')
+elif language == 'German':
+    print('Guten Tag')
+
 exit
     
 
